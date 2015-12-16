@@ -158,16 +158,15 @@ function wrapAll(){
         // console.log(dimssorted[dim]);
         // console.log(topvalue);
 
-        width = dimssorted[dim][0];
-        color = dimssorted[dim][2];
-
         if(currentheight > fullheight){
-            left += width/3;
+            left += width;
             topvalue = dimssorted[dim][1]/4;
         }
         else {
             currentheight += dimssorted[dim][1];
         }
+        width = dimssorted[dim][0];
+        color = dimssorted[dim][2];
 
         createWrapperContentDiv(dim, width/1.5, topvalue, left, color);
 
