@@ -1,0 +1,31 @@
+input[type="text"]{
+	border: none;
+	padding-left: 5px;
+}
+
+
+.wrapper-container{
+	/*position: absolute;*/
+	/*overflow: scroll;*/
+	height: 632px;
+	width: 800px;
+	border: 1px solid #62A3EE;
+	padding: 1em 2em;
+}
+
+.wrapper-content{
+	position: absolute;
+}
+
+
+/*#htmlwrapper{
+	background-color: #62A3EE;
+}
+
+#csswrapper{
+	background-color: #FF73B1; //FFC361
+}
+
+#jswrapper{
+	background-color: #64AD82;
+}*/
